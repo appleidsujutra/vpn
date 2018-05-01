@@ -2,8 +2,8 @@
 #Menu
 
 echo -e "================================MENU====================================="
-echo -e "* menu       : senarai perintah"
-echo -e "* usernew    : membuat akaun SSH"
+echo -e "* menu       : พิมพ์ menu เพื่อดูป้อนค่า"
+echo -e "* usernew    : เพิ่ม user"
 echo -e "* trial      : membuat akaun trial"
 echo -e "* hapus      : menghapus akaun SSH"
 echo -e "* login      : semak login user"
