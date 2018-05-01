@@ -29,7 +29,7 @@ sed -i '$ i\echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6' /etc/rc.local
 apt-get update;apt-get -y install wget curl;
 
 # set time GMT +8
-ln -fs /usr/share/zoneinfo/Asia/Malaysia /etc/localtime
+ln -fs /usr/share/zoneinfo/Asia/Thailand /etc/localtime
 
 # set locale
 sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
@@ -74,7 +74,7 @@ rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
 wget -O /etc/nginx/nginx.conf "https://raw.github.com/appleidsujutra/vpn/master/nginx.conf"
 mkdir -p /home/vps/public_html
-echo "<pre>Setup by Aiman Amir | 081515292117</pre>" > /home/vps/public_html/index.html
+echo "<pre>Mitty | 0908914062</pre>" > /home/vps/public_html/index.html
 wget -O /etc/nginx/conf.d/vps.conf "https://github.com/appleidsujutra/vpn/blob/master/vps.conf"
 service nginx restart
 
@@ -208,7 +208,7 @@ echo ""  | tee -a log-install.txt
 echo "Feature lain"  | tee -a log-install.txt
 echo "----------"  | tee -a log-install.txt
 echo "Webmin   : http://$MYIP:10000/"  | tee -a log-install.txt
-echo "Timezone : Asia/Malaysia (GMT +8)"  | tee -a log-install.txt
+echo "Timezone : Asia/Thailand (GMT +7)"  | tee -a log-install.txt
 echo "IPv6     : [off]"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Modified by Aiman Amir"  | tee -a log-install.txt
