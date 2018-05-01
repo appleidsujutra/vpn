@@ -6,7 +6,7 @@ Feature script Auto-Install :
 - Badvpn   : badvpn-udpgw port 7300
 - Webmin   : http://IPVPS:10000/
 - Nginx    : 81
-- OpenVPN TCP 1194
+- OpenVPN TCP 443
 - Script menu : senarai perintah
 - Script usernew : membuat akaun SSH
 - Script trial : membuat akaun trial
@@ -21,4 +21,4 @@ Sebelum script Auto Install berikut diinstall, pastikan bahwa VPS Anda mempunyai
 
 Auto-Install Script :-
 
-apt-get install wget && wget https://raw.github.com/blazevpn/autoscript/master/debian7.sh && ./debian7.sh
+apt-get install wget && wget https://raw.github.com/appleidsujutra/vpn/master/debian7.sh && ./debian7.sh
